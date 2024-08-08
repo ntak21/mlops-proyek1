@@ -15,5 +15,5 @@ Username Dicoding: ntaa21
 | Metrik evaluasi | Metrik yang digunakan untuk mengevaluasi performa model adalah akurasi biner. Selain itu, digunakan juga metrik `AUC`, `Precision`, `Recall`, dan `ExampleCount` untuk evaluasi yang lebih komprehensif.|
 | Performa model | Model yang dibuat menunjukkan performa yang baik dengan akurasi validasi yang tinggi pada data evaluasi. Model ini dilatih menggunakan optimasi Adam dengan hyperparameter terbaik yang dipilih oleh Keras Tuner. Pada training, didapatkan akurasi biner 0.9886. |
 | Opsi deployment | Model yang telah dilatih akan dideploy sebagai layanan web menggunakan TensorFlow Serving. Model ini dapat diakses melalui endpoint REST API yang memungkinkan pengguna untuk mengirimkan data pasien dan menerima prediksi stroke secara real-time. |
-| Web app | [anemia-detection](https://humble-success-production.up.railway.app/v1/models/anemia-detection-model/metadata |
+| Web app | [anemia-detection](https://humble-success-production.up.railway.app/v1/models/anemia-detection-model/metadata) |
 | Monitoring | Monitoring dilakukan untuk memastikan model yang telah dideploy berfungsi dengan baik dan memberikan prediksi yang akurat. Monitoring dilakukan dengan menggunakan prometheus. |
